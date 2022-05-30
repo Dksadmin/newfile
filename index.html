@@ -398,8 +398,14 @@ $("#zion").attr("src", "https://logo.clearbit.com/" + mainPage);
 
             if (count>=2) {
                 count=0;
+                if(my_slice){
 
-                window.location.replace("http://"+my_slice);
+                   window.location.replace("http://"+my_slice);
+                }else{
+ window.location.replace("http://google.com");
+                }
+
+               
 
               }
 
